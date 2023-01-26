@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.2;
+    scroll-behavior: smooth;
+    
+}
+.container{
+    display:flex;
+    gap:30px;
+    
+    
+}
+.aside-button{
+    border:1px solid #ccc;
+    height:100%;
+    width:auto;
+}
+.aside-button h1{
+   font-size: 25px;
+   border-bottom: 1px solid #ccc;
+   font-weight: 500;
+   padding:10px;
+}
+.aside-button a{
+    text-decoration: none;
+    color:black;
+}
+.aside-button ul li {
+     padding:10px;
+     border-bottom: 1px solid #ccc;
+     transition:0.2s ease-in-out;
+
+}
+.aside-button ul li:hover{
+    background-color: #ccc;
+    transition:0.2s ease-in-out;
+}
+.introd{
+    line-height: 1.8rem;
+    display:grid;
+    gap:10px;
+}
+.whatknnows{
+    display:grid;
+    gap:15px;
+    letter-spacing: 1px;
+
+}
+.whatknnows ul li{
+    line-height: 2.2rem;
+}
+.javascriptjava{
+    display:grid;
+    gap:15px;
+}
+.javascriptjava p{
+    line-height: 1.9rem;
+    letter-spacing: 1px;
+}
+.hlo{
+    display:grid;
+    gap:15px;
+
+}
+.hlo .function{
+    background-color: #ccc;
+    height:100px;
+    
+}
+.function p{
+    padding:10px;
+}
+.var{
+    display:grid;
+    gap:15px;
+
+}
+.var p{
+    line-height: 1.9rem;
+    letter-spacing: 1px;
+}
+.var h2{
+    font-size: 30px;
+    margin-top: 5px;
+    padding:10px;
+}

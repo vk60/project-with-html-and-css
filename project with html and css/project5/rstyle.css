@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&family=Roboto:ital,wght@1,500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+nav{
+    box-shadow: 5px 5px 5px rgba(1,1,1, 0.5);
+    position:sticky;
+    top:0;
+    margin-bottom: 32px;
+    background-color: white;
+    z-index: 50;
+}
+.navigation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+
+}
+.hero{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+
+}
+.herocontent{
+    display:flex;
+    flex-direction: column;
+
+}
+.tag{
+    background-color: #149f39;
+    padding:5px 10px;
+    align-self: flex-start;
+}
+.herocontent h1{
+    font-size:72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.btn{
+    align-self: flex-start;
+    padding:20px 15px;
+    background-color:#ffc066 ;
+    transition:0.2s ease-in-out;
+    color:white;
+    border:none;
+    font-size: 18px;
+}
+.btn:hover{
+    opacity:0.8;
+    transition:0.2s ease-in-out;
+}
+@media (max-width:786px) {
+    .hero{
+        flex-direction: coloumn;
+        justify-content: center;
+    }
+    .heroimage img{
+        width:80%;
+    }
+    .herocontent{
+        gap:10px;
+        padding:10px;
+    }
+    .herocontent h1{
+        font-size:32px;
+    }
+    .grid{
+        padding:10px;
+    }
+    .grid-image{
+        border-radius:0px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .feature{
+        flex-direction: column;
+    }
+
+}
+.features{
+    display:flex;
+    margin:100px;
+    gap:20px;
+    justify-content: center;
+    transition:0.2s ease-in-out;
+}
+.feature{
+    display:flex;
+    gap:20px;
+
+}
+.features:hover{
+    transition:0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1,1,1, 0.5);
+    border:0.5px solid ;
+}
+.divider{
+    border:1px solid #ccc;
+    margin:20px 0px;
+
+}
+.menu{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    margin:50px 0;
+    align-items: center;
+}
+.menu .tag{
+    align-self: center;
+}
+.grid{
+    display:grid;
+    gap:5px;
+    grid-template-areas:"I1 I1 I2 I3" "I1 I1 I2 I7" "I4 I5 I6 I7";
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+.grid-image{
+    border-radius: 10px;
+ transition:0.3s ease-in-out ;
+ width:100%;
+}
+.grid-image:hover{
+    transition:0.3s ease-in-out;
+    transform:scale(1.05)
+
+}
+footer{
+    background-color:rgba(255, 192, 203, 0.49);
+    margin-top: 50px;
+}
+.footersection{
+    display:flex;
+    justify-content: space-around;
+    padding:30px;
+    
+}
+.iconcontainer{
+    display:flex;
+    gap:10px;
+
+}
+.linklist h3,.support h3,.newsletter h3{
+    color:grey;
+}
+li{
+    font-size: 10px;
+}
